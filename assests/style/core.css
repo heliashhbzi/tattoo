@@ -1,0 +1,739 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+/* ----------------------NAVIGATION BAR STARTS--------------------- */
+.navbar {
+    position: fixed;
+    background-color: #262626;
+    display: flex;
+    height: 50px;
+    width: 100%;
+    top: 0;
+}
+
+.title {
+    color: aliceblue;
+    position: absolute;
+    left: 0px;
+    display: flex;
+    font-size: larger;
+    margin: 10px;
+}
+
+.buy {
+    color: aliceblue;
+    position: absolute;
+    right: 0px;
+    background-color: #82b440;
+    width: 76px;
+    height: 26px;
+    display: flex;
+    cursor: pointer;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+    padding: 4px;
+    border-radius: 5px;
+}
+/* ----------------------NAVIGATION BAR ENDS--------------------- */
+
+/* ----------------------INTRODUCTION PART STARTS----------------------- */
+
+.introduction {
+    background-color: #151525;
+    height: 60px;
+    width: 100%;
+    margin-top: 50px;
+    padding: 10px;
+}
+
+.firstbar {
+    display: flex;
+    align-items: center;
+    padding-left: 350px;
+    position: relative;
+}
+
+.follow-text {
+    color: #82829b;
+    display: flex;
+    font-size: 11px;
+}
+
+.introducion-img {
+    display: flex;
+}
+
+.social-icons {
+    width: 154px;
+}
+
+.introducion-img img {
+    border-right: 2px solid #ffffff;
+    width: 32px;
+    height: 32px;
+    margin: 10px;
+    padding: 0px 10px;
+}
+
+.tatto-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.account-text {
+    display: flex;
+    color: #82829b;
+    font-size: 11px;
+    position: absolute;
+    right: 300px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.account-text:hover {
+    color: #1cbad6;
+}
+
+/* --------------------ACCOUNT MENU STARTS----------------- */
+#account-menu {
+    position: absolute;
+    right: 278px;
+    top: 49px;
+    width: 365px;
+    background: #151525;
+    height: 0px ;
+    border: 1px solid transparent;
+    /* display: none; */
+    overflow: hidden;
+    z-index: 99999;
+    
+}
+
+.open-account-menu {
+    /* display: block !important; */
+    border: 1px solid #484848!important;
+    height: 302px !important;
+    padding:40px;
+}
+
+input {
+    all: unset;
+    /* border:none; */
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: #38384b;
+    color: white;
+}
+/* -------------------ACCOUNT MENU ENDS--------------------- */
+
+.icon {
+    display: flex;
+    position: absolute;
+    right: 275px;
+    width: 22px;
+    cursor: pointer;
+}
+
+.bag-icon {
+    display: flex;
+    position: absolute;
+    right: 240px;
+    width: 23px;
+}
+
+.price {
+    display: flex;
+    position: absolute;
+    right: 176px;
+    color: #1cbad6;
+    font-size: 15px;
+}
+
+.magnifier-icon {
+    display: flex;
+    position: absolute;
+    right: 135px;
+    width: 29px;
+}
+
+.tattoo-image {
+    position: absolute;
+    top: -10px;
+    left: calc(50% - 135px);
+}
+/* ------------------------INTRODUCTION PART ENDS------------------------ */
+
+/* -------------------------MENU BAR STARTS--------------------------- */
+
+.menu {
+    display: flex;
+    background-color: #363252;
+    height: 136px;
+    background-image: url("../img/bg_copyright.jpg");
+}
+
+.menu-bar {
+    display: flex;
+    color: white;
+    align-items: flex-end;
+    width: 100%;
+    justify-content: center;
+}
+
+.menu-text {
+    margin: 0px 30px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-bottom: 20px;
+    transition: all 0.3s;
+}
+
+.menu-text:hover {
+    color: #1cbad6;
+}
+
+.menu-text_active {
+    color: #1cbad6;
+}
+
+.title-form{
+    color: #ffffff;
+    font-size: 14px;
+}
+.label-form{
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+    margin: 10px 0px;
+}
+
+.log-button{
+    cursor: pointer;
+}
+.register-button{
+    cursor: pointer;
+}
+
+/* ------------------------MENU BAR ENDS---------------- */
+
+/* ------------------------BODY PART STARTS-------------------- */
+
+.body-tattoo-image {
+    width: 100%;
+}
+
+.body-part {
+    position: relative;
+    display: flex;
+    overflow: hidden
+}
+
+.our-slogan {
+    position: absolute;
+    top: 50%;
+    display: flex;
+    width: 480px;
+    left: calc(50% - 240px);
+    justify-content: space-between
+}
+
+.left-text {
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 3px;
+    word-spacing: 2px;
+}
+
+.right-text {
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 3px;
+}
+/* -----------------REQUEST BOX STARTS----------------- */
+
+.request-box-wrapper {
+    width: 245px;
+    height: 50px;
+    position: absolute;
+    top: calc(50% + 50px);
+    overflow: hidden;
+    word-spacing: 2px;
+    left: calc(50% - 122.5px);
+}
+
+.request-box {
+    color: #ffffff;
+    display: flex;
+    position: absolute;
+    background-color: #1cbad6;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 13px;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+
+}
+
+.cover {
+    color: #ffffff;
+    background-color: #82829b;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 13px;
+    cursor: pointer;
+    top: -50px;
+    transition: all 0.5s;
+}
+
+.request-box-wrapper:hover .cover {
+    top: 0px;
+}
+/* -----------------------REQUEST BOX ENDS------------------- */
+
+/* ---------------------ARROW BOX PART STARTS------------------ */
+
+.arrow-box-left,
+.arrow-box-right {
+    background-color: rgba(91, 91, 112, 0.7);
+    position: absolute;
+    width: 50px;
+    height: 100px;
+    top: calc(50% - 40px);
+    padding: 10px;
+    display: flex;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.arrow-box-left:hover,.arrow-box-right:hover{
+    background-color: #1cbad6;
+}
+
+.arrow-box-left {
+    left: -50px;
+}
+
+.arrow-box-right {
+    right: -50px;
+}
+
+.arrow-box-left img,
+.arrow-box-right img {
+    width: 100%;
+}
+
+.body-part:hover .arrow-box-left{
+    left: 0px;
+}
+
+.body-part:hover .arrow-box-right{
+    right: 0px;
+}
+/* ---------------------ARROW BOX PART ENDS------------------ */
+
+/* --------------------LOCATION , CALL , CLOCK PART STARTS----------------- */
+
+.last-image-part{
+    width: 100%;
+    position: absolute;
+    opacity: 0.7;
+    bottom: 0px;
+    height: 134px;
+    background: rgba(21, 21, 37, 0.75) repeat center center;
+    display: flex;
+}
+.text-bottom-part{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 14px;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    justify-content: space-around;
+}
+.location{
+    display: flex;
+    width: 309px;
+}
+.location-icon , .mobile-icon , .clock-icon{
+    width: 25px;
+    height: 25px;
+}
+.call{
+    display: flex;
+    width: 258px;
+}
+.clock{
+    display: flex;
+    width: 300px;
+}
+/* -------------------LOCATION , CALL , CLOCK PART ENDS------------------*/
+
+/* ------------------EXPLAINATION PART STARTS------------------------- */
+.explaination-part{
+    background-color: #151525;
+    color: #82829b;
+    width: 100%;
+    height: 475px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+
+}
+.explaination-text{
+    width: 385px;
+    position: absolute;
+   top: 190px;
+   left: 395px;
+}
+.intro-part{
+    width: 175px;
+    position: absolute;
+    top: 155px;
+    right: 500px;
+}
+
+.writer-name{
+    width: 150px;
+}
+
+.intro{
+    color: #ffffff;
+    font-size: 13px;
+}
+
+.woman-image{
+    position: absolute;
+    left: calc(50% - 165px);
+    width: 412px;
+    bottom: 0px;
+    
+}
+
+.header-explaination{
+    font-size: 39px;
+}
+
+.writer-name{
+    font-size: 40px;
+}
+
+.sign{
+    position: absolute;
+    top: 160px;
+}
+
+.date-part{
+    display: flex;
+    position: absolute;
+    top: -38px;
+}
+
+.anchor-image{
+    width: 20px;
+    height: 20px;
+}
+
+.date-number{
+    font-size: 18px;
+}
+
+.this-hr{
+    width: 80px;
+    color: #82829b;
+    position: absolute;
+    bottom: -17px;
+}
+
+/* ---------------------EXPLAINATION PART ENDS--------------------- */
+
+/* ---------------------OFFER PART STARTS--------------------------- */
+.const-section{
+    overflow: hidden;
+    position: relative;
+}
+.opacity{
+    background-color: rgba(21, 21, 37, 0.75);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+}
+.in-opacity-part{
+    display: flex;
+    width: 1117px;
+    height: 580px;
+    position: absolute;
+    top: calc(50% - 290px);
+    left: calc(50% - 558.5px);
+    z-index: 999;
+}
+.blue-rectangle{
+    width: 65px;
+    height: 100%;
+    background-color: #1cbad6;
+    border-right: 5px solid #44cde2;
+    position: relative;
+}
+.gift-box{
+    background-color: #222231;
+    height: 100%;
+    width: 750px;
+}
+.offer-tattoo-img{
+    border:10px solid #5b5b70;
+    position: absolute;
+    top: 30px;
+    left: 85px;
+    box-sizing: border-box;
+}
+.header-offer{
+    position: absolute;
+    top: 45px;
+    left: 500px;
+   font:bold 14px/25px "Arial", sans-serif;
+   word-spacing: 4px;
+   letter-spacing: 2px;
+   border-bottom: #ffffff;
+   border-width: 3px;
+   width: 200px;
+   height: 50px;
+   border-color: white;
+   padding: 5px;
+   margin: 5px;
+}
+.off-explaination{
+    position: absolute;
+    top: 130px;
+    left: 415px;
+    width: 360px;
+    word-spacing: 2px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.off-paragragh{
+    font-size: 14px;
+    left: 460px;
+    width: 270px;
+    bottom: 200px;
+    position: absolute;
+    text-align: center;
+}
+
+.btn-motion{
+        /* general */
+        width: 100%;
+        height: 100%;
+        color: white;
+        position: absolute;
+        display: flex;
+        font-size: 13px;
+        word-spacing: 2px;
+        cursor: pointer;
+        overflow: hidden;
+}
+
+.request-box-bottom-wrapper{
+    /* just this one */
+    width: 245px;
+    height: 50px;
+    right: 395px;
+    bottom: 60px;
+
+}
+
+.btn-motion-body{
+    background-color: #1cbad6;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    font-weight: bold;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.btn-motion-cover{
+    background-color: #82829b;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    overflow: hidden;
+    align-items: center;
+    top: -50px;
+    font-weight: bold;
+    transition: all 0.5s;
+}
+
+.btn-motion:hover .btn-motion-cover{
+    top: 0px;
+}
+.right-rectangle{
+    position: absolute;
+    right: 0px;
+    width: 270px;
+    height: 100%;
+    background-color: #222231;
+    border: 6px solid;
+    border-color: #5b5b70;
+    padding: 5px;
+    box-sizing: border-box;
+}
+ .first-off-img{
+    width: 100%;
+   padding: 30px;
+    position: absolute;
+    top: 0px;
+ }
+ .second-off-img{
+    width: 100%;
+    padding: 30px;
+    position: absolute;
+    bottom: 25px;
+ }
+ .first-off-text{
+    text-align: center;
+    background-color: #222231;
+    color: #ffffff;
+    width: 172px;
+    height: 93px;
+    position: absolute;
+    top: 70px;
+    padding: 18px;
+    margin: 40px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+ }
+
+ .offer-button-wrapper{
+    width: 172px;
+    height: 40px;
+    right: 41px;
+    top: 203px;
+ }
+
+ .offer-first-button{
+    background-color: #1cbad6;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    align-items: center;
+    font-weight: bold;
+    text-transform: uppercase;
+ }
+
+ .offer-cover-first-button{
+    background-color: #82829b;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: -40px;
+    left: 0px;
+    align-items: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: all 0.5s;
+
+ }
+ .btn-motion:hover .offer-cover-first-button{
+    top: 0px;
+ }
+ .offer-button-wrapper-bottom{
+    width: 172px;
+    height: 40px;
+    right: 41px;
+    bottom: 20px;
+ }
+ .offer-second-button{
+    background-color: #1cbad6;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    align-items: center;
+    font-weight: bold;
+    text-transform: uppercase;
+
+ }
+ .offer-cover-second-button{
+
+    background-color: #82829b;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: -40px;
+    left: 0px;
+    align-items: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: all 0.5s;
+ }
+ .btn-motion:hover .offer-cover-second-button{
+    top: 0px;
+ }
+ .second-off-text{
+    text-align: center;
+    background-color: #222231;
+    color: #ffffff;
+    width: 172px;
+    height: 93px;
+    position: absolute;
+    bottom:20px;
+    padding: 21px;
+    margin: 40px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+ }
+ /* ------------------------OFFER PART STARTS----------------------- */
+ 

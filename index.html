@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASAPROJECT</title>
+    <link rel="stylesheet" href="./assests/style/core.css">
+    
+</head>
+
+<body>
+    <nav class="navbar">
+
+        <span class="title">envato <span style="color: #82b440;">market</span></span>
+        <span class="buy">
+            Buy Now
+        </span>
+    </nav>
+    <section class="introduction">
+        <span class="firstbar">
+            <h1 class="follow-text">FOLLOW WITH US:</h1>
+            <img class="social-icons" src="./assests/img/social-icons.png" alt="facebook logo">
+            <h1 class="account-text" onclick="toggleAccountMenu()">MY ACCOUNT</h1>
+            <img class="icon" src="./assests/img/icone.PNG" alt="" onclick="toggleAccountMenu()">
+            <div id="account-menu">
+                <form width="100%" height="100%" action="">
+                    <p class="title-form">If you have an account, please log in:</p>
+
+                    <label class="label-form" for="email">Email address:</label>
+
+                    <input type="email" placeholder="Email Address">
+
+                    <label class="label-form" for="password">Password:</label>
+
+                    <input type="password" placeholder="Password">
+
+                    <button class="log-button">LOG IN</button>
+
+                    <button class="register-button">REGISTER</button>
+                </form>
+            </div>
+            <img class="bag-icon" src="./assests/img/bag.PNG" alt="">
+            <span class="price">$179,000</span>
+            <img class="magnifier-icon" src="./assests/img/magnifier.PNG" alt="">
+            <img class="tattoo-image" src="./assests/img/tatto logo.jpg" alt="">
+        </span>
+
+    </section>
+    <section class="menu">
+        <span class="menu-bar">
+            <h1 class="menu-text menu-text_active">MAINPAGE</h1>
+            <h1 class="menu-text">PAGES</h1>
+            <h1 class="menu-text">ABOUT US</h1>
+            <h1 class="menu-text">SERVICES</h1>
+            <h1 class="menu-text">LOOKBOOK</h1>
+            <h1 class="menu-text">OUR BLOG</h1>
+            <h1 class="menu-text">CONTACTS</h1>
+            <h1 class="menu-text">SHOP</h1>
+        </span>
+    </section>
+
+
+    <section class="body-part">
+        <img class="body-tattoo-image" id="banner" src="./assests/img/body tattoo image.jpg" alt="tattoo image">
+        <div class="our-slogan">
+            <span class="left-text">TATTOO WITH</span>
+            <span class="right-text">EXPERIENCE</span>
+        </div>
+        <div class="request-box-wrapper">
+            <div class="request-box">
+                REQUEST AN APPOINTMENT
+            </div>
+            <div class="cover">
+                REQUEST AN APPOINTMENT
+            </div>
+        </div>
+        <div class="arrow-box-left">
+            <img src="./assests/img/left-arrow-svgrepo-com (2).svg" alt="" onclick="changeBanner('LEFT')">
+        </div>
+        <div class="arrow-box-right">
+            <img src="./assests/img/right-arrow-svgrepo-com (1).svg" alt="" onclick="changeBanner('RIGHT')">
+        </div>
+        <div class="last-image-part">
+            <div class="text-bottom-part">
+                <div class="location">
+                    <img class="location-icon" src="./assests/img/location-pin-svgrepo-com.svg" alt="">
+                    <p class="location-text">LIVINGSTONE, SEASON STREET <span style="color: #1cbad6;">45/2</span>
+                        LOS ANGELES, <span style="color: #1cbad6;">INC - 4502</span>
+                    </p>
+                </div>
+                <div class="call">
+                    <img class="mobile-icon" src="./assests/img/mobile-2-svgrepo-com.svg" alt="">
+                    <p class="call-text">CALL TO MAKE AN APPONTMENT
+                        <span style="color: #1cbad6;">1 (800) 300 2214</span>
+                    </p>
+                </div>
+                <div class="clock">
+                    <img class="clock-icon" src="./assests/img/clock-two-svgrepo-com.svg" alt="">
+                    <p class="time-text">TUESDAY - SUNDAY 9.00 AM - 7.00 PM
+                        SATURDAY & MONDAY <span style="color: #1cbad6;">CLOSED</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="explaination-part">
+        <div class="explaination-text">
+            <div class="date-part">
+                <h3 class="date-number" style="color: white;">ESTD</h3>
+                <img class="anchor-image" src="./assests/img/anchor-svgrepo-com.svg" alt="">
+                <h3 class="date-number" style="color: white;">1987</h3>
+            </div>
+            <h1 class="header-explaination" style="color:#1cbad6 ;">WE’LL MAKE YOU A MASTERPIECE</h1>
+
+            <p class="paragragh-explaination">But in certain circumstances and owing to the claims of duty or the
+                obligations of business it will frequently occur that pleasures have to be repudiated and annoyances
+                accepted. The wise man therefore always holds in these matters to this principle of selection.
+            </p>
+        </div>
+        <img class="woman-image" src="./assests/img/img_director-img.png" alt="">
+        <div class="intro-part">
+            <p class="intro">DIRECTOR & OWNER</p>
+
+            <h1 class="writer-name" style="color: #1cbad6;">LORI FOSTER</h1>
+            <hr class="this-hr">
+            <img class="sign" src="./assests/img/sign.png" alt="">
+        </div>
+    </section>
+    <section class="const-section">
+        <img style="width: 100%;" class="background-image" src="./assests/img/background.jpg" alt="">
+        <div class="opacity">
+        </div>
+        <div class="in-opacity-part">
+            <div class="blue-rectangle"></div>
+            <div class="gift-box">
+                <img class="offer-tattoo-img" src="./assests/img/offfer image.jpg" alt="">
+                <div class="header-offer"><h3 style="color: white;">GIFT CERTIFICATE</h3></div>
+                <!-- <hr class="offer-hr"> -->
+                <div class="off-explaination" >
+                    <p style="color: #1cbad6;">THIS FRIDAY ONLY 20% OFF HENNA DESIGN</p>
+                </div>
+                <div class="off-paragragh">
+                    <p style="color: #ffff;">USE A CHANGE TO TAKE ADVANTAGE OF THIS LIMITED OFFER!</p>
+                </div>
+                <div class="btn-motion request-box-bottom-wrapper">
+                    <div class="btn-motion-body">
+                        REQUEST AN APPOINTMENT
+                    </div>
+                    <div class="btn-motion-cover">
+                        REQUEST AN APPOINTMENT
+                    </div>
+                </div>
+            </div>
+
+            <div class="right-rectangle">
+                <div>
+                    <img class="first-off-img" src="./assests/img/toopp.jpg" alt="">
+                    <div class="first-off-text">
+                        BE BEAUTIFUL. FEEL GOOD ABOUT IT
+                    </div>
+                    <div class="btn-motion offer-button-wrapper">
+                        <div class="offer-first-button">
+                            our blog
+                        </div>
+                        <div class="offer-cover-first-button">
+                            our blog
+                        </div>
+                    </div>
+
+                </div>
+                <div>
+                    <img class="second-off-img" src="./assests/img/buttoom.jpg" alt="">
+                    <div class="second-off-text">
+                        YOUR BEAUTY IS OUR PROFESSION
+                    </div>
+                    <div class="btn-motion offer-button-wrapper-bottom">
+                        <div class="offer-second-button">
+                            shop now
+                        </div>
+                        <div class="offer-cover-second-button">
+                            shop now
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="./assests/js/core.js"></script>
+
+</body>
+
+</html>
